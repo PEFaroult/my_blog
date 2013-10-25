@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: my_blog_development
   pool: 5
-  username: my_blog
+  username: pierre-emilefaroult
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,13 +48,5 @@ test:
   encoding: unicode
   database: my_blog_test
   pool: 5
-  username: my_blog
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: my_blog_production
-  pool: 5
-  username: my_blog
+  username: pierre-emilefaroult
   password:
